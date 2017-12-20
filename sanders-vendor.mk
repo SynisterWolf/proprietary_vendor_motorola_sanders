@@ -48,7 +48,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/motorola/sanders/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/motorola/sanders/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-	vendor/motorola/sanders/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
+    vendor/motorola/sanders/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/motorola/sanders/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/sanders/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
     vendor/motorola/sanders/proprietary/etc/acdbdata/Global_cal.acdb:system/etc/acdbdata/Global_cal.acdb \
@@ -159,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/sanders/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/sanders/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
-	vendor/motorola/sanders/proprietary/vendor/framework/imscmlibrary.jar:system/vendor/framework/imscmlibrary.jar \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
     vendor/motorola/sanders/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
@@ -945,11 +944,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sanders/proprietary/vendor/lib/rfsa/adsp/libscveTextReco_skel.so:system/vendor/lib/rfsa/adsp/libscveTextReco_skel.so \
     vendor/motorola/sanders/proprietary/vendor/lib/sensor_calibrate.so:system/vendor/lib/sensor_calibrate.so \
     vendor/motorola/sanders/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
-    vendor/motorola/sanders/proprietary/vendor/qcril.db:system/vendor/qcril.db
-	vendor/motorola/sanders/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so
-	vendor/motorola/sanders/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so
-	vendor/motorola/sanders/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so
-	vendor/motorola/sanders/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so
+    vendor/motorola/sanders/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/motorola/sanders/proprietary/vendor/lib/libhwdaphal.so:system/vendor/lib/libhwdaphal.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libNimsWrap.so:system/vendor/lib/libNimsWrap.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
+    vendor/motorola/sanders/proprietary/vendor/lib/libvcel.so:system/vendor/lib/libvcel.so \
 	
 PRODUCT_PACKAGES += \
     libril \
@@ -966,7 +965,7 @@ PRODUCT_PACKAGES += \
     com.qti.snapdragon.sdk.display \
     embmslibrary \
     imscmlibrary \
-	ims \
+    ims \
     imssettings \
     izat.xt.srv \
     qcrilhook \
